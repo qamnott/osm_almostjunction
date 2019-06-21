@@ -1,7 +1,10 @@
 /*
 Reconstructed SQL scripts for "Almost Junction" rule of Osmose
+Adapted from: https://github.com/osm-fr/osmose-backend/blob/master/analysers/analyser_osmosis_highway_almost_junction.py
+By Sam A. T.
+Date: June 2019
 ---
-Input: table "ways, nodes"
+Input: table "ways, nodes" of imported OSM Extract in PostgreSQL with PostGIS extenstion
 */
 
 DROP TABLE IF EXISTS highways;
